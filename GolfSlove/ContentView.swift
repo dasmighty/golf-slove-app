@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+
     var body: some View {
         TabView {
             GreenReaderView()
@@ -9,12 +11,14 @@ struct ContentView: View {
             ScoreHomeView()
                 .tabItem { Label("Skor", systemImage: "list.number") }
 
-            ComingSoonView(
-                title: "Tips & Trik",
-                systemImage: "lightbulb",
-                message: "Kumpulan tips driving, short game, dan putting akan hadir di versi berikutnya."
-            )
-            .tabItem { Label("Tips", systemImage: "lightbulb") }
+            TipsView()
+                .tabItem { Label("Tips", systemImage: "lightbulb") }
+        }
+        .fullScreenCover(isPresented: Binding(
+            get: { !hasSeenOnboarding },
+            set: { if !$0 { hasSeenOnboarding = true } }
+        )) {
+            OnboardingView { hasSeenOnboarding = true }
         }
     }
 }

@@ -6,12 +6,8 @@ struct ContentView: View {
             GreenReaderView()
                 .tabItem { Label("Baca Green", systemImage: "scope") }
 
-            ComingSoonView(
-                title: "Skor & Handicap",
-                systemImage: "list.number",
-                message: "Kartu skor 18 hole dan perhitungan handicap akan hadir di versi berikutnya."
-            )
-            .tabItem { Label("Skor", systemImage: "list.number") }
+            ScoreHomeView()
+                .tabItem { Label("Skor", systemImage: "list.number") }
 
             ComingSoonView(
                 title: "Tips & Trik",

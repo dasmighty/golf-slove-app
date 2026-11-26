@@ -1,0 +1,310 @@
+[
+ {
+  "id": "driving-setup",
+  "category": "driving",
+  "title": "Posisi bola dan stance untuk driver",
+  "summary": "Driver dipukul saat kepala stik mulai naik, jadi posisi bola dan badan berbeda dengan iron.",
+  "steps": [
+   "Letakkan bola sejajar bagian dalam tumit kaki depan.",
+   "Buka kaki sedikit lebih lebar dari bahu agar badan stabil.",
+   "Miringkan tulang belakang sedikit menjauhi target, bahu depan lebih tinggi dari bahu belakang.",
+   "Tee bola sehingga separuh bola berada di atas puncak kepala driver."
+  ],
+  "mistake": "Bola terlalu di tengah stance membuat pukulan turun ke bawah dan menghasilkan slice atau spin berlebih.",
+  "level": "Pemula"
+ },
+ {
+  "id": "driving-tempo",
+  "category": "driving",
+  "title": "Tempo ayunan 3:1",
+  "summary": "Pemain profesional rata-rata punya rasio backswing banding downswing sekitar 3:1. Tempo yang konsisten lebih penting dari tenaga.",
+  "steps": [
+   "Hitung \"satu, dua, tiga\" saat backswing dan \"empat\" saat downswing.",
+   "Latih dengan 70% tenaga sampai tempo terasa otomatis.",
+   "Jaga pegangan tetap rileks, skala 4 dari 10."
+  ],
+  "mistake": "Memukul sekeras mungkin dari puncak ayunan membuat urutan gerak kacau dan arah bola tidak menentu.",
+  "level": "Pemula"
+ },
+ {
+  "id": "driving-slice",
+  "category": "driving",
+  "title": "Mengurangi slice",
+  "summary": "Slice terjadi karena muka stik terbuka terhadap jalur ayunan yang bergerak dari luar ke dalam.",
+  "steps": [
+   "Periksa grip: tangan kiri (untuk pemain kanan) diputar sedikit ke kanan sampai terlihat 2 sampai 3 buku jari.",
+   "Mulai downswing dengan pinggul, bukan bahu, agar stik datang dari dalam.",
+   "Bayangkan memukul bagian belakang-dalam bola, ke arah jam 4.",
+   "Latihan: taruh headcover sedikit di luar bola; jangan sampai stik menyentuhnya."
+  ],
+  "mistake": "Membidik lebih ke kiri untuk \"mengkompensasi\" slice justru memperparah jalur ayunan dari luar ke dalam.",
+  "level": "Menengah"
+ },
+ {
+  "id": "driving-target",
+  "category": "driving",
+  "title": "Pilih target sempit",
+  "summary": "Membidik target kecil membuat fokus lebih tajam dan rata-rata meleset lebih sedikit.",
+  "steps": [
+   "Dari belakang bola, pilih target spesifik seperti pohon atau ujung bunker, bukan sekadar \"fairway\".",
+   "Pilih titik kecil 30 cm di depan bola pada garis tersebut.",
+   "Arahkan muka stik ke titik itu, lalu atur badan sejajar."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "iron-ball-first",
+  "category": "iron",
+  "title": "Kena bola dulu, baru rumput",
+  "summary": "Iron yang baik memukul bola saat stik masih turun, sehingga divot ada di depan bola.",
+  "steps": [
+   "Posisi bola di tengah stance untuk iron tengah.",
+   "Berat badan 55–60% di kaki depan saat address.",
+   "Tangan sedikit di depan bola saat impact.",
+   "Latihan: gambar garis di rumput; divot harus mulai di depan garis."
+  ],
+  "mistake": "Mencoba \"mengangkat\" bola ke udara membuat pukulan tipis (topped) atau tebal (fat).",
+  "level": "Pemula"
+ },
+ {
+  "id": "iron-distances",
+  "category": "iron",
+  "title": "Ketahui jarak tiap stik",
+  "summary": "Kebanyakan pemain amatir melebihkan perkiraan jarak mereka. Mengetahui jarak carry yang sebenarnya langsung menurunkan skor.",
+  "steps": [
+   "Di driving range atau lapangan, catat jarak carry rata-rata (bukan pukulan terbaik) setiap iron.",
+   "Tulis daftar jaraknya dan simpan di tas golf.",
+   "Saat ragu di antara dua stik, pilih stik yang lebih panjang dan ayun dengan nyaman."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "iron-uneven",
+  "category": "iron",
+  "title": "Lie miring: bola di atas atau di bawah kaki",
+  "summary": "Lie yang tidak rata mengubah arah bola. Sesuaikan posisi dan bidikan.",
+  "steps": [
+   "Bola di atas kaki: pegang stik lebih pendek; bola cenderung ke kiri, jadi bidik sedikit ke kanan.",
+   "Bola di bawah kaki: tekuk lutut lebih banyak; bola cenderung ke kanan, jadi bidik sedikit ke kiri.",
+   "Menanjak: sejajarkan bahu dengan kemiringan, pakai satu stik lebih panjang.",
+   "Menurun: sejajarkan bahu dengan kemiringan, bola cenderung lebih rendah."
+  ],
+  "mistake": null,
+  "level": "Menengah"
+ },
+ {
+  "id": "chip-basic",
+  "category": "short",
+  "title": "Chip dasar: seperti putt dengan loft",
+  "summary": "Chip yang konsisten memakai gerakan bahu seperti putting, tanpa banyak pergelangan.",
+  "steps": [
+   "Stance sempit, berat badan 60–70% di kaki depan.",
+   "Bola di belakang tengah stance, tangan di depan bola.",
+   "Ayun dengan bahu; pergelangan tetap kaku seperti saat putt.",
+   "Biarkan loft stik yang mengangkat bola."
+  ],
+  "mistake": "Menyendok bola dengan pergelangan membuat chip tipis atau mengenai tanah dulu.",
+  "level": "Pemula"
+ },
+ {
+  "id": "chip-landing",
+  "category": "short",
+  "title": "Pilih titik jatuh, bukan lubang",
+  "summary": "Chip terbaik mendarat di green lalu menggelinding seperti putt.",
+  "steps": [
+   "Pilih titik jatuh sekitar 1 meter masuk ke green.",
+   "Atur rasio terbang:gulir: SW ±1:1, PW ±1:2, 9-iron ±1:3, 7-iron ±1:4.",
+   "Pilih stik yang membuat bola mendarat di titik itu dan bergulir sampai lubang."
+  ],
+  "mistake": null,
+  "level": "Menengah"
+ },
+ {
+  "id": "bunker-splash",
+  "category": "short",
+  "title": "Keluar dari bunker greenside",
+  "summary": "Di bunker dekat green, stik mengenai pasir sebelum bola. Pasirlah yang mengangkat bola.",
+  "steps": [
+   "Buka muka sand wedge sedikit, baru pegang gripnya.",
+   "Tanam kaki ke pasir agar stabil, bola sedikit di depan tengah stance.",
+   "Bidik untuk mengenai pasir 3–5 cm di belakang bola.",
+   "Ayun penuh dan teruskan sampai finish; jangan berhenti di pasir."
+  ],
+  "mistake": "Mencoba memukul bola bersih dari pasir. Menurut aturan, stik juga tidak boleh menyentuh pasir sebelum ayunan.",
+  "level": "Pemula"
+ },
+ {
+  "id": "pitch-clock",
+  "category": "short",
+  "title": "Sistem jam untuk pitch",
+  "summary": "Kontrol jarak pitch dengan panjang backswing, bukan dengan kecepatan tangan.",
+  "steps": [
+   "Bayangkan badan sebagai jam; lengan kiri sebagai jarum.",
+   "Latih backswing sampai posisi jam 7:30, 9:00, dan 10:30.",
+   "Catat jarak tiap posisi dengan tiap wedge. Kini Anda punya 9 jarak pasti dari 3 wedge."
+  ],
+  "mistake": null,
+  "level": "Menengah"
+ },
+ {
+  "id": "putt-speed",
+  "category": "putting",
+  "title": "Kecepatan lebih penting dari arah",
+  "summary": "Sebagian besar three-putt terjadi karena putt pertama terlalu pendek atau terlalu jauh, bukan karena salah arah.",
+  "steps": [
+   "Targetkan bola berhenti 30–45 cm melewati lubang jika meleset.",
+   "Untuk putt panjang (lebih dari 9 m), bayangkan lingkaran 1 m di sekitar lubang sebagai target.",
+   "Latihan tangga: putt ke 3, 6, 9, dan 12 m tanpa target lubang, hanya jarak."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "putt-setup",
+  "category": "putting",
+  "title": "Posisi putting yang stabil",
+  "summary": "Setup yang sama setiap kali membuat stroke bisa diulang.",
+  "steps": [
+   "Mata tepat di atas bola atau sedikit di dalam garis bola.",
+   "Bola sedikit di depan tengah stance, agar bola menggelinding naik.",
+   "Lengan menggantung rileks; gerak dari bahu seperti bandul.",
+   "Panjang backswing dan follow-through hampir sama."
+  ],
+  "mistake": "Melambatkan stik saat impact (decelerate) membuat putt pendek dan melenceng.",
+  "level": "Pemula"
+ },
+ {
+  "id": "putt-short",
+  "category": "putting",
+  "title": "Putt pendek: tetap diam",
+  "summary": "Putt di bawah 1,5 m paling sering meleset karena kepala bergerak untuk melihat hasilnya.",
+  "steps": [
+   "Pilih titik kecil di bagian belakang bola dan fokus ke titik itu.",
+   "Setelah memukul, tahan kepala sampai terdengar bola masuk.",
+   "Pukul tegas ke bagian belakang lubang; kurangi break yang dibaca."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "putt-gate",
+  "category": "putting",
+  "title": "Latihan gerbang (gate drill)",
+  "summary": "Melatih muka putter tegak lurus ke garis saat impact.",
+  "steps": [
+   "Tancapkan dua tee selebar kepala putter + 1 cm, 1 meter dari lubang.",
+   "Putt melewati gerbang tanpa menyentuh tee.",
+   "Lakukan 20 kali berturut-turut sebelum memperjauh jaraknya."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "green-low",
+  "category": "green",
+  "title": "Baca dari sisi rendah",
+  "summary": "Break lebih mudah terlihat dari sisi yang lebih rendah dari garis putt.",
+  "steps": [
+   "Saat berjalan ke green, perhatikan bentuk keseluruhannya: di mana titik tertinggi dan terendah.",
+   "Lihat garis putt dari belakang bola, lalu dari sisi rendah di tengah-tengah putt.",
+   "Gunakan fitur Baca Green di aplikasi ini saat latihan untuk melatih mata Anda."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "green-apex",
+  "category": "green",
+  "title": "Bidik ke puncak lengkungan",
+  "summary": "Bola yang berbelok punya titik puncak (apex). Putt yang baik melewati titik ini, bukan langsung ke lubang.",
+  "steps": [
+   "Tentukan apex: biasanya di 2/3 jarak menuju lubang.",
+   "Arahkan muka putter ke titik bidik (bukan ke lubang).",
+   "Pukul lurus ke titik bidik; biarkan lereng yang membelokkan bola."
+  ],
+  "mistake": "Membidik lurus ke lubang lalu \"mendorong\" bola ke atas lereng saat stroke.",
+  "level": "Menengah"
+ },
+ {
+  "id": "green-grain",
+  "category": "green",
+  "title": "Arah rumput (grain)",
+  "summary": "Di green rumput Bermuda yang umum di Indonesia, arah tumbuh rumput memengaruhi kecepatan dan belokan.",
+  "steps": [
+   "Rumput tampak mengkilap saat Anda melihat searah grain, dan gelap saat melawan grain.",
+   "Putt searah grain lebih cepat, melawan grain lebih lambat.",
+   "Lihat tepi lubang: sisi yang kasar dan robek menunjukkan arah grain tumbuh.",
+   "Rumput cenderung tumbuh ke arah matahari terbenam atau ke arah aliran air."
+  ],
+  "mistake": null,
+  "level": "Menengah"
+ },
+ {
+  "id": "green-speed",
+  "category": "green",
+  "title": "Uphill dan downhill",
+  "summary": "Lereng naik turun mengubah kekuatan putt lebih dari yang dikira.",
+  "steps": [
+   "Menanjak: pukul seolah putt lebih panjang; belokan lebih sedikit.",
+   "Menurun: pukul seolah putt lebih pendek; belokan lebih banyak karena bola lebih lambat.",
+   "Fitur Baca Green menampilkan \"seperti putt datar X m\" sebagai panduan kekuatan."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "mental-routine",
+  "category": "mental",
+  "title": "Rutinitas sebelum memukul",
+  "summary": "Rutinitas yang sama di setiap pukulan menenangkan pikiran dan membuat ayunan konsisten.",
+  "steps": [
+   "Berdiri di belakang bola dan pilih target.",
+   "Lakukan satu atau dua ayunan latihan merasakan pukulan yang diinginkan.",
+   "Masuk ke posisi, lihat target sekali, lalu pukul dalam waktu ±10 detik.",
+   "Gunakan rutinitas yang sama di driving range."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "mental-bogey",
+  "category": "mental",
+  "title": "Bermain untuk bogey yang aman",
+  "summary": "Untuk pemain di atas handicap 18, menghindari double bogey menurunkan skor lebih cepat daripada mengejar birdie.",
+  "steps": [
+   "Dari rough atau di belakang pohon, keluarkan bola ke fairway dulu.",
+   "Bidik ke tengah green, bukan ke bendera di dekat bunker atau air.",
+   "Hitung: bogey di setiap hole = skor 90 di lapangan par 72."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "mental-reset",
+  "category": "mental",
+  "title": "Lupakan pukulan buruk",
+  "summary": "Satu pukulan buruk tidak boleh merusak hole berikutnya.",
+  "steps": [
+   "Beri diri Anda 10 detik untuk kesal, lalu lepaskan.",
+   "Fokus pada satu hal yang bisa dikontrol untuk pukulan berikutnya: target dan tempo.",
+   "Tarik napas dalam 4 detik, tahan 4 detik, hembuskan 4 detik sebelum pukulan penting."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ },
+ {
+  "id": "mental-stats",
+  "category": "mental",
+  "title": "Catat statistik sederhana",
+  "summary": "Mengetahui kelemahan sendiri membuat latihan lebih tepat sasaran.",
+  "steps": [
+   "Catat jumlah putt tiap hole di kartu skor aplikasi ini.",
+   "Lebih dari 36 putt per ronde? Latih putting jarak jauh.",
+   "Banyak double bogey? Perbaiki pukulan pendek di sekitar green dan pilihan strategi."
+  ],
+  "mistake": null,
+  "level": "Pemula"
+ }
+]

@@ -2,7 +2,7 @@
 
 Aplikasi iOS untuk golfer: membaca kemiringan green, menghitung skor dan handicap, serta tips & trik golf.
 
-Fitur saat ini: **baca green** dengan LiDAR dan **kartu skor + handicap sederhana**. Tab Tips masih placeholder.
+Fitur saat ini: **baca green** dengan LiDAR, **kartu skor + handicap sederhana**, dan **tips & trik** golf dalam bahasa Indonesia.
 
 ## Cara kerja baca green
 
@@ -87,6 +87,12 @@ Dengan Apple ID gratis, aplikasi perlu dipasang ulang dari Xcode setiap 7 hari.
 - **Handicap sederhana**: selisih skor terhadap par tiap ronde selesai (9 hole dikali 2), lalu dirata-rata dari ronde terbaik: 8 terbaik dari 20 ronde terakhir, atau 40% terbaik jika ronde masih kurang dari 20. Minimal 3 ronde. Ini bukan handicap resmi WHS.
 - Semua data tersimpan di iPhone (SwiftData). Geser ronde ke kiri untuk menghapus.
 
+## Tips & trik
+
+- 23 tips dalam 6 kategori: Driving, Iron, Short Game, Putting, Baca Green, Strategi & Mental.
+- Bisa dicari, difilter per kategori, dan disimpan sebagai favorit (ikon bintang).
+- Isi tips ada di `GolfSlove/Tips/Tips.json`. Untuk menambah tips, salin satu entri dan ubah isinya; `category` harus salah satu dari `driving`, `iron`, `short`, `putting`, `green`, `mental`.
+
 ## Struktur kode
 
 | File | Isi |
@@ -99,10 +105,13 @@ Dengan Apple ID gratis, aplikasi perlu dipasang ulang dari Xcode setiap 7 hari.
 | `GolfSlove/Score/Round.swift` | Data ronde (SwiftData) |
 | `GolfSlove/Score/HandicapCalculator.swift` | Rumus handicap sederhana |
 | `GolfSlove/Score/*View.swift` | Layar riwayat, ronde baru, dan isi skor per hole |
+| `GolfSlove/Tips/Tips.json` | Isi tips & trik |
+| `GolfSlove/Tips/TipsView.swift` | Layar daftar dan detail tips |
+| `GolfSlove/Shared/OnboardingView.swift` | Layar pembuka untuk pengguna baru |
 
 ## Rencana
 
 1. ✅ Prototipe baca green
 2. ✅ Kartu skor 18 hole dan handicap sederhana
-3. Tips & trik dan perapian tampilan
+3. ✅ Tips & trik dan perapian tampilan
 4. Rilis gratis di App Store

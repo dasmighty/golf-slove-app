@@ -16,20 +16,68 @@ Versi ini (0.1) berisi **prototipe baca green**. Tab Skor dan Tips masih placeho
 
 ## Menjalankan di iPhone Anda
 
-Yang diperlukan: Mac dengan **Xcode 16 atau lebih baru** (gratis di App Store), iPhone dengan iOS 17+, dan kabel USB. Untuk uji coba cukup Apple ID biasa, belum perlu akun Apple Developer berbayar.
+Yang diperlukan:
+- Mac dengan **macOS 14.5 atau lebih baru**
+- **Xcode 16 atau lebih baru** (gratis di Mac App Store). Proyek ini tidak bisa dibuka dengan Xcode 15 atau lebih lama.
+- iPhone dengan iOS 17 atau lebih baru, dan kabel USB / USB-C
+- Apple ID biasa (gratis). Akun Apple Developer berbayar belum diperlukan untuk uji coba.
 
-1. Unduh kode: di halaman GitHub repo ini klik **Code → Open with GitHub Desktop**, atau di Terminal:
-   ```
-   git clone https://github.com/dasmighty/golf-slove-app.git
-   ```
-2. Buka file `GolfSlove.xcodeproj` dengan Xcode.
-3. Di Xcode: klik proyek **GolfSlove** di panel kiri → tab **Signing & Capabilities** → di **Team** pilih **Add an Account...** dan masuk dengan Apple ID Anda, lalu pilih tim "(Personal Team)".
-   - Jika muncul error bundle identifier, ubah `com.dasmighty.golfslove` menjadi sesuatu yang unik, misalnya `com.namaanda.golfslove`.
-4. Sambungkan iPhone ke Mac. Di iPhone, aktifkan **Settings → Privacy & Security → Developer Mode**, lalu restart jika diminta.
-5. Di bagian atas Xcode pilih iPhone Anda sebagai tujuan, lalu tekan tombol ▶︎ (Run).
-6. Saat pertama kali, di iPhone buka **Settings → General → VPN & Device Management**, pilih Apple ID Anda, lalu ketuk **Trust**.
+### Langkah 1: Pasang dan siapkan Xcode
+
+1. Buka **App Store** di Mac, cari **Xcode**, lalu klik **Get / Install**. Ukurannya besar (±10 GB), jadi butuh waktu.
+2. Buka Xcode untuk pertama kali. Jika muncul jendela **"Select the platforms you want to develop for"**, centang **iOS** lalu klik **Download & Install**. Tunggu sampai selesai.
+   - Jika jendela itu tidak muncul: menu **Xcode → Settings… → Components** (atau **Platforms**), lalu unduh **iOS**.
+3. Cek versinya di menu **Xcode → About Xcode**. Harus 16.0 atau lebih tinggi.
+
+### Langkah 2: Unduh kode aplikasi
+
+Cara paling mudah tanpa Terminal:
+1. Buka https://github.com/dasmighty/golf-slove-app di browser (pastikan sudah login GitHub).
+2. Klik tombol hijau **Code → Download ZIP**.
+3. Buka folder **Downloads**, klik dua kali file ZIP-nya. Akan muncul folder **golf-slove-app-main**. Pindahkan folder itu ke tempat yang mudah, misalnya **Documents**.
+
+(Atau lewat Terminal: `git clone https://github.com/dasmighty/golf-slove-app.git`)
+
+### Langkah 3: Buka proyek
+
+1. Buka folder **golf-slove-app-main**.
+2. Klik dua kali **GolfSlove.xcodeproj** (ikon biru). Xcode akan terbuka.
+3. Jika Xcode bertanya **"Trust and Open"**, pilih itu.
+
+### Langkah 4: Masukkan Apple ID untuk tanda tangan aplikasi
+
+1. Menu **Xcode → Settings… → Accounts**, klik **+** di kiri bawah, pilih **Apple ID**, lalu login.
+2. Tutup jendela Settings. Di panel kiri Xcode, klik baris paling atas yang bertuliskan **GolfSlove** (ikon biru).
+3. Di bagian tengah, di bawah **TARGETS** pilih **GolfSlove**, lalu buka tab **Signing & Capabilities**.
+4. Pastikan **Automatically manage signing** tercentang, lalu di **Team** pilih **nama Anda (Personal Team)**.
+5. Jika muncul error merah soal **Bundle Identifier**, ganti `com.dasmighty.golfslove` menjadi yang unik, misalnya `com.dhany.golfslove2026`.
+
+### Langkah 5: Sambungkan iPhone
+
+1. Colokkan iPhone ke Mac dengan kabel. Buka kunci iPhone, lalu ketuk **Trust / Percayai** dan masukkan kode iPhone.
+2. Di bagian atas tengah Xcode ada pilihan perangkat (misalnya "iPhone 16 Pro"). Klik, lalu pilih **iPhone Anda** di bagian **iOS Device**. Jangan pilih Simulator, karena AR tidak bisa berjalan di Simulator.
+3. Aktifkan **Developer Mode** di iPhone: **Settings → Privacy & Security → Developer Mode** (paling bawah) → nyalakan → **Restart**. Setelah restart, ketuk **Turn On**.
+   - Menu Developer Mode baru muncul setelah iPhone pernah disambungkan ke Xcode. Jika belum terlihat, cabut lalu colok lagi kabelnya dan tunggu sebentar.
+
+### Langkah 6: Jalankan
+
+1. Klik tombol **▶︎** (Run) di kiri atas Xcode, atau tekan **⌘R**.
+2. Saat pertama kali, iPhone mungkin menolak membuka aplikasi ("Untrusted Developer"). Buka **Settings → General → VPN & Device Management**, ketuk Apple ID Anda, lalu **Trust**. Kemudian tekan ▶︎ lagi di Xcode.
+3. Izinkan akses kamera saat diminta.
 
 Dengan Apple ID gratis, aplikasi perlu dipasang ulang dari Xcode setiap 7 hari.
+
+### Jika ada masalah
+
+| Pesan / gejala | Solusi |
+| --- | --- |
+| "The project … cannot be opened" atau "future Xcode project file format" | Xcode terlalu lama. Perbarui ke Xcode 16 atau lebih baru. |
+| "iOS 17.x is not installed" / "Platform not installed" | Xcode → Settings → Components → unduh iOS. |
+| "Signing for GolfSlove requires a development team" | Ulangi Langkah 4: pilih Team (Personal Team). |
+| "Failed to register bundle identifier" | Ganti Bundle Identifier menjadi nama unik (Langkah 4 nomor 5). |
+| iPhone tidak muncul di daftar perangkat | Buka kunci iPhone, ketuk Trust, coba kabel/port lain, atau buka menu Window → Devices and Simulators. |
+| "Developer Mode disabled" | Langkah 5 nomor 3. |
+| Error merah saat build (Build Failed) | Klik ikon segitiga merah di panel kiri, lalu kirim screenshot pesan errornya. |
 
 ## Struktur kode
 

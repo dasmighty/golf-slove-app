@@ -73,6 +73,7 @@ Dengan Apple ID gratis, aplikasi perlu dipasang ulang dari Xcode setiap 7 hari.
 | --- | --- |
 | "The project … cannot be opened" atau "future Xcode project file format" | Xcode terlalu lama. Perbarui ke Xcode 16 atau lebih baru. |
 | "iOS 17.x is not installed" / "Platform not installed" | Xcode → Settings → Components → unduh iOS. |
+| "Your team has no devices" / "No profiles for … were found" | Sambungkan iPhone, pilih iPhone (bukan "Any iOS Device") di bagian atas Xcode, lalu klik **Try Again** di Signing & Capabilities. |
 | "Signing for GolfSlove requires a development team" | Ulangi Langkah 4: pilih Team (Personal Team). |
 | "Failed to register bundle identifier" | Ganti Bundle Identifier menjadi nama unik (Langkah 4 nomor 5). |
 | iPhone tidak muncul di daftar perangkat | Buka kunci iPhone, ketuk Trust, coba kabel/port lain, atau buka menu Window → Devices and Simulators. |

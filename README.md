@@ -2,7 +2,7 @@
 
 Aplikasi iOS untuk golfer: membaca kemiringan green, menghitung skor dan handicap, serta tips & trik golf.
 
-Versi ini (0.1) berisi **prototipe baca green**. Tab Skor dan Tips masih placeholder.
+Fitur saat ini: **baca green** dengan LiDAR dan **kartu skor + handicap sederhana**. Tab Tips masih placeholder.
 
 ## Cara kerja baca green
 
@@ -80,6 +80,13 @@ Dengan Apple ID gratis, aplikasi perlu dipasang ulang dari Xcode setiap 7 hari.
 | "Developer Mode disabled" | Langkah 5 nomor 3. |
 | Error merah saat build (Build Failed) | Klik ikon segitiga merah di panel kiri, lalu kirim screenshot pesan errornya. |
 
+## Kartu skor & handicap
+
+- Tab **Skor** → tombol **+** untuk ronde baru (9 atau 18 hole). Nama lapangan yang pernah dimainkan bisa dipilih ulang, dan par tiap hole ikut tersalin.
+- Isi pukulan dan putt per hole dengan tombol − / +. Ketukan + pertama langsung mengisi skor sama dengan par.
+- **Handicap sederhana**: selisih skor terhadap par tiap ronde selesai (9 hole dikali 2), lalu dirata-rata dari ronde terbaik: 8 terbaik dari 20 ronde terakhir, atau 40% terbaik jika ronde masih kurang dari 20. Minimal 3 ronde. Ini bukan handicap resmi WHS.
+- Semua data tersimpan di iPhone (SwiftData). Geser ronde ke kiri untuk menghapus.
+
 ## Struktur kode
 
 | File | Isi |
@@ -89,10 +96,13 @@ Dengan Apple ID gratis, aplikasi perlu dipasang ulang dari Xcode setiap 7 hari.
 | `GolfSlove/Green/GreenReaderModel.swift` | Sesi ARKit, pengambilan titik LiDAR/kamera, ketukan |
 | `GolfSlove/Green/GreenOverlay.swift` | Gambar AR: peta warna, panah, bola, lubang, lintasan |
 | `GolfSlove/Green/GreenReaderView.swift` | Layar SwiftUI baca green |
+| `GolfSlove/Score/Round.swift` | Data ronde (SwiftData) |
+| `GolfSlove/Score/HandicapCalculator.swift` | Rumus handicap sederhana |
+| `GolfSlove/Score/*View.swift` | Layar riwayat, ronde baru, dan isi skor per hole |
 
 ## Rencana
 
-1. ✅ Prototipe baca green (versi ini)
-2. Kartu skor 18 hole dan handicap sederhana
+1. ✅ Prototipe baca green
+2. ✅ Kartu skor 18 hole dan handicap sederhana
 3. Tips & trik dan perapian tampilan
 4. Rilis gratis di App Store
